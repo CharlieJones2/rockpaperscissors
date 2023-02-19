@@ -30,7 +30,8 @@ while turnFlag:
                     print('its a tie!')
                 else:
                     print('you lost!')
-                quit()
+                playFlag = False
+                turnFlag = False
 
 # resuming
             elif play == 'no':
@@ -88,3 +89,5 @@ while turnFlag:
 # invalid entry
     else:
         print('error! please enter "rock", "paper" or "scissors"')
+
+print('code ended')
